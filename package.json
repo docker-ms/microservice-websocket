@@ -1,0 +1,24 @@
+{
+  "name": "microservice-websocket",
+  "version": "0.0.1",
+  "description": "This is the 'WebSocket' microservice.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/v-cube/microservice-websocket.git"
+  },
+  "dependencies": {
+    "amqplib": "~0.5.1",
+    "bluebird": "~3.4.7",
+    "grpc": "~1.4.1",
+    "jsonwebtoken": "~7.1.9",
+    "microservice-consul-agents": "git+ssh://git@bitbucket.org/v-cube/microservice-module-consul.git",
+    "microservice-errors": "git+ssh://git@bitbucket.org/v-cube/microservice-module-error.git",
+    "microservice-mongodb-conn-pools": "git+ssh://git@bitbucket.org/v-cube/microservice-module-mongodb-conn-pool-js.git",
+    "microservice-rabbitmq-channels-pool": "git+ssh://git@bitbucket.org/v-cube/microservice-module-rabbitmq-channel-pool-js.git",
+    "microservice-utils": "git+ssh://git@bitbucket.org/v-cube/microservice-module-util-js.git",
+    "msgpack": "~1.0.2",
+    "uws": "~0.14.5"
+  }
+}
